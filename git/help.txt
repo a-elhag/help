@@ -36,8 +36,10 @@ git push origin :<branchname>	# deletes remote branch
 
 git subtree push --prefix docs origin gh-pages  # push docs as subtree to gh-pages
 
+### Ssh
 ssh -T git@github.com
-
+==> If old project and you want to connect it to SSH
+git remote set-url origin git@github.com:a-elhag/ev_research
 
 ### Clone Directory
 git clone <url>
