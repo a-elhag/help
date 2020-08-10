@@ -50,9 +50,10 @@ x = np.random.rand(8760)
 x_sql = SQLNumpy("test.db")
 # x_sql.insert(x)
 
-x_sql.first_select()
-print(x_sql.data)
-x_sql.first_delete()
-x_sql.commit()
-x_sql.close()
-
+x_sql.first_select()                        
+print(x_sql.data)                           
+x_sql.first_delete()                        
+x_sql.commit()                              
+x_sql.close()                               
+                                            
+                                            
