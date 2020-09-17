@@ -15,6 +15,7 @@ cd %:p:h ==> cd changes directory; % is current file;
              p gives path; h gives the head of the full path
 lcd %:p:h ==> changes directory for only current file
 `. ==> Works like <c-o> but for more minute changes within the doc
+g Ctrl+A ==> Increment each row sequential in block selection 1 2 3 == 2 3 4
 
 :verbose imap <tab> ==> to see what is mapping the key
 
