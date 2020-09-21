@@ -1,4 +1,4 @@
-import ipdb
+import ipdb; ipdb.set_trace()
 
 def main():
   list = [1,2,3]
@@ -6,3 +6,4 @@ def main():
   list = [2,3,4]
 
 main()
+
