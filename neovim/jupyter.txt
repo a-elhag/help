@@ -1,0 +1,19 @@
+Title: jupyter notebook running kernel in different env
+
+This is a tricky part of ipython / Jupyter. The set of kernels available are independent of what your virtualenv is when you start jupyter Notebook. 
+The trick is setting up the the ipykernel package in the environment you want to identify itself uniquely to jupyter. From docs on multiple ipykernels,
+
+```
+source activate ENVNAME
+pip install ipykernel
+python -m ipykernel install --user --name ENVNAME --display-name "Python (whatever you want to call it)"
+```
+
+If you only want to have a single Python 3 kernel, from the conda environment, just use: 
+```
+python -m ipykernel install --user 
+```
+and it will reset the default python to the one in the virtualenv.
+
+And yes, you will need to restart the kernel and re-run the prior steps.
+
