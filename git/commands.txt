@@ -1,0 +1,5 @@
+# Show alias
+git config --list | grep alias
+
+# Delete alias
+git config --global --unset alias.socool 

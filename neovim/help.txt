@@ -6,7 +6,6 @@ q[a] ==> Starts recording a macro into 'a', stop it with 'q'
 @[a] ==> Plays the macro
 :reg ==> Shows registers (yanked stuff)
 Ctrl + R + * ==> Paste into command line
-f<character> ==> To go to the next character, a god send this one is
 1 + Ctrl G ==> Full path of the current file
 da" ===> Delete everything inside and outside quotes of type "
 di" ==> Delete everything inside quotes of type "
@@ -17,8 +16,11 @@ lcd %:p:h ==> changes directory for only current file
 `. ==> Works like <c-o> but for more minute changes within the doc
 g Ctrl+A ==> Increment each row sequential in block selection 1 2 3 == 2 3 4
 :%s/$/.astype(int) ==> As this to the end of every line
-
 :verbose imap <tab> ==> to see what is mapping the key
+:e ==> Update file after version control
+%< ==> Takes the filename, (eg hello.c) and strips the extension and dot (hello)
+:checkhealth ==> checks health of everything (plugins included)
+:checkhealth provider ==> checks health of python and stuff
 
 " Startup Time (at the beginning)
 " --startuptime log.txt

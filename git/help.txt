@@ -1,3 +1,8 @@
+### Ssh
+ssh -T git@github.com
+==> If old project and you want to connect it to SSH
+git remote set-url origin git@github.com:a-elhag/ev_research
+
 # Terminal Cheat Sheet
 
 pwd         # print working directory
@@ -18,10 +23,6 @@ kill        # terminate existing process
 rmd         # permanently delete file
 rmdir       # remove directory
 
-
-
-
-
 ## Working with Git
 
 ### Quick Start
@@ -36,10 +37,6 @@ git push origin :<branchname>	# deletes remote branch
 
 git subtree push --prefix docs origin gh-pages  # push docs as subtree to gh-pages
 
-### Ssh
-ssh -T git@github.com
-==> If old project and you want to connect it to SSH
-git remote set-url origin git@github.com:a-elhag/ev_research
 
 ### Clone Directory
 git clone <url>
