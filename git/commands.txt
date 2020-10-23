@@ -1,5 +1,23 @@
+## Alias
+# Show alias
+git config --global alias.st status
+
+# Show alias
+git config --list | grep alias
+
+# Edit alias
+git config --global --edit
+
 # Show alias
 git config --list | grep alias
 
 # Delete alias
 git config --global --unset alias.socool 
+
+
+## Remotes
+# Add remote
+git remote add upstream git@github.com:numpy/numpy-tutorials
+
+# Set url of remote
+git remote set-url origin git@github.com:a-elhag/ev_research
