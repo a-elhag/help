@@ -1,6 +1,6 @@
 ## Alias
-# Show alias
-git config --global alias.st status
+# Add alias
+git config --global alias.st 'status'
 
 # Show alias
 git config --list | grep alias
@@ -21,3 +21,10 @@ git remote add upstream git@github.com:numpy/numpy-tutorials
 
 # Set url of remote
 git remote set-url origin git@github.com:a-elhag/ev_research
+
+
+## Logs
+--oneline
+--decorate
+--graph
+--all 
