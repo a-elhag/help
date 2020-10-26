@@ -1,0 +1,1 @@
+jupytext --to=ipynb --from=md --update --output ../content/mooreslaw-tutorial.ipynb ./mooreslaw-tutorial.md 
