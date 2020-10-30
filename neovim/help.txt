@@ -21,6 +21,7 @@ g Ctrl+A ==> Increment each row sequential in block selection 1 2 3 == 2 3 4
 %< ==> Takes the filename, (eg hello.c) and strips the extension and dot (hello)
 :checkhealth ==> checks health of everything (plugins included)
 :checkhealth provider ==> checks health of python and stuff
+v ... gq ==> To reformat text after `:set textwidth=80`
 
 " Startup Time (at the beginning)
 " --startuptime log.txt
